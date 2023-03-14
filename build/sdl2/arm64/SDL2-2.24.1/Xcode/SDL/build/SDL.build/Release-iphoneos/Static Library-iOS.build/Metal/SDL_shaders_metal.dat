@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2/arm64/SDL2-2.24.1/src/render/metal/SDL_shaders_metal.metal \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/metal/ios/lib/clang/31001.667/include/metal/module.modulemap

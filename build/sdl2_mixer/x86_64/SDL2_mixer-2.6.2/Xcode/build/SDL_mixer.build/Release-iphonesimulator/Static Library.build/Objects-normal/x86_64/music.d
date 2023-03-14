@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/music.c \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_hints.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_stdinc.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_config.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_platform.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/begin_code.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/close_code.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_config_iphoneos.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_log.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_timer.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_error.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/include/SDL_mixer.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_rwops.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_audio.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_endian.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_mutex.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_thread.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_atomic.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2/SDL_version.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/mixer.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/music.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_cmd.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_wav.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_modplug.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_xmp.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_nativemidi.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_fluidsynth.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_timidity.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_ogg.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_opus.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_drmp3.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_mpg123.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_drflac.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/music_flac.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/codecs/native_midi/native_midi.h \
+  /Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_mixer/x86_64/SDL2_mixer-2.6.2/src/utils.h
