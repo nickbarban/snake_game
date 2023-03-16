@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01532DAA137C099F0076F6BF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01532DA9137C099F0076F6BF /* icon.png */; };
+		09504D078FB76BB4E8583A71 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9E41DDAA69B0BAFDC75F44 /* ImageIO.framework */; };
+		0E1D4AE28BA4AB274C957140 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 054B4F2498FB69B69F332594 /* GameController.framework */; };
+		0E374EFBA1F550484246A2FC /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5160478DA363449C6341596C /* CoreHaptics.framework */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		25774501A6AC98E33FA1A69A /* libpython3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3984923A9C99BF093F4C81C /* libpython3.a */; };
+		276E46DB8BEBAE5015F1999D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E684125B011DF6C385A22ED /* AVFoundation.framework */; };
+		2CB5F34717D5233A006187AB /* bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5F34617D5233A006187AB /* bridge.m */; };
+		2E8444C0B9E3A222D7D240C0 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895A45558D11401E6CAB8CF6 /* CoreBluetooth.framework */; };
+		36A24946BC951B3EB3EB468C /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2642F0BDF319B09A41B5F4 /* Photos.framework */; };
+		3E34402D91A225D83E6FE498 /* libsdl2_ttf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E06B433AB70AFFF84EC0290C /* libsdl2_ttf.a */; };
+		4B784BF2837B4F898B30003E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE344ACB192E4E7A07030B7 /* AudioToolbox.framework */; };
+		4D5F48AA84AE4A5BFCD642B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23134A35B4C60521A8329533 /* MobileCoreServices.framework */; };
+		53184E6ABDCA14D0A079DE4F /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A1482B94FE48C464011CB8 /* libssl.a */; };
+		59738AB51A8BB5D8001B2C0C /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 59738AB41A8BB5D8001B2C0C /* lib */; };
+		59738ABB1A8E19AA001B2C0C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59738ABA1A8E19AA001B2C0C /* Images.xcassets */; };
+		59994E3B148E85C800863906 /* YourApp in Resources */ = {isa = PBXBuildFile; fileRef = 59994E3A148E85C800863906 /* YourApp */; };
+		59FDEA8B21E7D34E004E6ECE /* include in Resources */ = {isa = PBXBuildFile; fileRef = 59FDEA8A21E7D34E004E6ECE /* include */; };
+		69C64569B5778743464895A3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B3574AF08440B8EAB4CDD664 /* libc++.tbd */; };
+		6E1F43EE846B2076261ECAD5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C34719AF70CF61F8CF4818 /* CoreVideo.framework */; };
+		752E4A63B2613F191D7F5C6C /* libsdl2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84034411A7DCB8ACFC947425 /* libsdl2.a */; };
+		7E4748A8B80F422F95384EFB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF44813925795A3A14FAD67 /* libz.tbd */; };
+		81854E51964E6EB45A111B5C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7BF42988E32AF5EAFE9B71C /* OpenGLES.framework */; };
+		83504E1A835118F86C791C28 /* libkivy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C44D4285207FF298D9C0A3 /* libkivy.a */; };
+		8579401B888C0827A6504099 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10E44AB85F47A20D69A0F32 /* MessageUI.framework */; };
+		8F11498C9D05DD5BA2B3E2D5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1C4CF887C093CBFD3B9756 /* CoreMedia.framework */; };
+		A336499589E8A340C90B9FEF /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 590E4E6584C84E15A9CEB48F /* libcrypto.a */; };
+		A54B49FC8A0144B40A0472BF /* libpyobjus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A3B49958F9A79BFB1317F1F /* libpyobjus.a */; };
+		AC5106F52959EE4E00655416 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5106F42959EE4E00655416 /* Launch Screen.storyboard */; };
+		B0664D6181393883C78AA682 /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF34FCDAC02383DE9D4BBFF /* libffi.a */; };
+		B95D472B91F357A38FA070F3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD484457A4960A41929AFDD7 /* CoreMotion.framework */; };
+		BDAA4A3FB832F5CCD879D7B9 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2641CAA6D52A070404B65C /* WebKit.framework */; };
+		C3784B7DA82053CD7C3A1566 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E944409BCB7FC07D22B627 /* Metal.framework */; };
+		CB6C48859A3052C7BD6D1275 /* libsdl2_mixer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8544528FA77A6AA0D9EB0B /* libsdl2_mixer.a */; };
+		CBE242559137171AE8BF029C /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C63C4BEAB317EBB9A48B615B /* libsqlite3.tbd */; };
+		D08746EEA69A3348C43DF43A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7A43519FADFCBE9784E217 /* libbz2.tbd */; };
+		D0EE42CE9790560B535B1AB8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E94CD8A13435F096D13397 /* Accelerate.framework */; };
+		D49547FAAF49DD430F5DDCE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E884A42B997B0EA4FBE99CF /* UIKit.framework */; };
+		DDEC49068E7B49D747905725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464B4A408C3C17CA760E3BE4 /* CoreGraphics.framework */; };
+		EFB649A585CF5A9820900148 /* libsdl2_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7EF44418836775AAAD64624 /* libsdl2_image.a */; };
+		FE274DF1BAEB187D85CDDA3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6174E95B0C55B87AF72E84D /* QuartzCore.framework */; };
+		FE2C4EB797B2D8FAAA34BE59 /* libios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE44D328A7037108BFAFA9A /* libios.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01532DA9137C099F0076F6BF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		054B4F2498FB69B69F332594 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/GameController.framework; sourceTree = "<absolute>"; };
+		09A1482B94FE48C464011CB8 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = ../dist/lib/libssl.a; sourceTree = SOURCE_ROOT; };
+		0A3B49958F9A79BFB1317F1F /* libpyobjus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpyobjus.a; path = ../dist/lib/libpyobjus.a; sourceTree = SOURCE_ROOT; };
+		0CF44813925795A3A14FAD67 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libz.tbd; sourceTree = "<absolute>"; };
+		0E884A42B997B0EA4FBE99CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = "<absolute>"; };
+		1D6058910D05DD3D006BFB54 /* snakegame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snakegame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23134A35B4C60521A8329533 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB5F34517D5233A006187AB /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = SOURCE_ROOT; };
+		2CB5F34617D5233A006187AB /* bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bridge.m; sourceTree = SOURCE_ROOT; };
+		3BF34FCDAC02383DE9D4BBFF /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffi.a; path = ../dist/lib/libffi.a; sourceTree = SOURCE_ROOT; };
+		464B4A408C3C17CA760E3BE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		5160478DA363449C6341596C /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreHaptics.framework; sourceTree = "<absolute>"; };
+		590E4E6584C84E15A9CEB48F /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../dist/lib/libcrypto.a; sourceTree = SOURCE_ROOT; };
+		59738AB41A8BB5D8001B2C0C /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = /Users/nickbarban/tutorspace/kivy/snake_game/dist/root/python3/lib; sourceTree = "<group>"; };
+		59738ABA1A8E19AA001B2C0C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = snakegame/Images.xcassets; sourceTree = "<group>"; };
+		59994E3A148E85C800863906 /* YourApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = YourApp; sourceTree = "<group>"; };
+		59FDEA8A21E7D34E004E6ECE /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; name = include; path = /Users/nickbarban/tutorspace/kivy/snake_game/dist/root/python3/include; sourceTree = "<group>"; };
+		5CE44D328A7037108BFAFA9A /* libios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libios.a; path = ../dist/lib/libios.a; sourceTree = SOURCE_ROOT; };
+		6E9E41DDAA69B0BAFDC75F44 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
+		76E94CD8A13435F096D13397 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
+		7DE344ACB192E4E7A07030B7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		84034411A7DCB8ACFC947425 /* libsdl2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2.a; path = ../dist/lib/libsdl2.a; sourceTree = SOURCE_ROOT; };
+		895A45558D11401E6CAB8CF6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* snakegame-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "snakegame-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8E684125B011DF6C385A22ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = "<absolute>"; };
+		A7BF42988E32AF5EAFE9B71C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = "<absolute>"; };
+		AB2641CAA6D52A070404B65C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		AB8544528FA77A6AA0D9EB0B /* libsdl2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_mixer.a; path = ../dist/lib/libsdl2_mixer.a; sourceTree = SOURCE_ROOT; };
+		AC5106F42959EE4E00655416 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Storyboards/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AD484457A4960A41929AFDD7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = "<absolute>"; };
+		B3574AF08440B8EAB4CDD664 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libc++.tbd"; sourceTree = "<absolute>"; };
+		B6174E95B0C55B87AF72E84D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		B8C44D4285207FF298D9C0A3 /* libkivy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libkivy.a; path = ../dist/lib/libkivy.a; sourceTree = SOURCE_ROOT; };
+		C2C34719AF70CF61F8CF4818 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		C63C4BEAB317EBB9A48B615B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libsqlite3.tbd; sourceTree = "<absolute>"; };
+		D1E944409BCB7FC07D22B627 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
+		D3984923A9C99BF093F4C81C /* libpython3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpython3.a; path = ../dist/lib/libpython3.a; sourceTree = SOURCE_ROOT; };
+		DE1C4CF887C093CBFD3B9756 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = "<absolute>"; };
+		E06B433AB70AFFF84EC0290C /* libsdl2_ttf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_ttf.a; path = ../dist/lib/libsdl2_ttf.a; sourceTree = SOURCE_ROOT; };
+		E10E44AB85F47A20D69A0F32 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/MessageUI.framework; sourceTree = "<absolute>"; };
+		E7EF44418836775AAAD64624 /* libsdl2_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsdl2_image.a; path = ../dist/lib/libsdl2_image.a; sourceTree = SOURCE_ROOT; };
+		FB2642F0BDF319B09A41B5F4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = "<absolute>"; };
+		FE7A43519FADFCBE9784E217 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib/libbz2.tbd; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E1F43EE846B2076261ECAD5 /* CoreVideo.framework in Frameworks */,
+				0E374EFBA1F550484246A2FC /* CoreHaptics.framework in Frameworks */,
+				FE274DF1BAEB187D85CDDA3D /* QuartzCore.framework in Frameworks */,
+				276E46DB8BEBAE5015F1999D /* AVFoundation.framework in Frameworks */,
+				4B784BF2837B4F898B30003E /* AudioToolbox.framework in Frameworks */,
+				BDAA4A3FB832F5CCD879D7B9 /* WebKit.framework in Frameworks */,
+				2E8444C0B9E3A222D7D240C0 /* CoreBluetooth.framework in Frameworks */,
+				4D5F48AA84AE4A5BFCD642B1 /* MobileCoreServices.framework in Frameworks */,
+				B95D472B91F357A38FA070F3 /* CoreMotion.framework in Frameworks */,
+				09504D078FB76BB4E8583A71 /* ImageIO.framework in Frameworks */,
+				DDEC49068E7B49D747905725 /* CoreGraphics.framework in Frameworks */,
+				D0EE42CE9790560B535B1AB8 /* Accelerate.framework in Frameworks */,
+				C3784B7DA82053CD7C3A1566 /* Metal.framework in Frameworks */,
+				81854E51964E6EB45A111B5C /* OpenGLES.framework in Frameworks */,
+				D49547FAAF49DD430F5DDCE2 /* UIKit.framework in Frameworks */,
+				8F11498C9D05DD5BA2B3E2D5 /* CoreMedia.framework in Frameworks */,
+				0E1D4AE28BA4AB274C957140 /* GameController.framework in Frameworks */,
+				36A24946BC951B3EB3EB468C /* Photos.framework in Frameworks */,
+				8579401B888C0827A6504099 /* MessageUI.framework in Frameworks */,
+				D08746EEA69A3348C43DF43A /* libbz2.tbd in Frameworks */,
+				7E4748A8B80F422F95384EFB /* libz.tbd in Frameworks */,
+				69C64569B5778743464895A3 /* libc++.tbd in Frameworks */,
+				CBE242559137171AE8BF029C /* libsqlite3.tbd in Frameworks */,
+				A336499589E8A340C90B9FEF /* libcrypto.a in Frameworks */,
+				B0664D6181393883C78AA682 /* libffi.a in Frameworks */,
+				752E4A63B2613F191D7F5C6C /* libsdl2.a in Frameworks */,
+				83504E1A835118F86C791C28 /* libkivy.a in Frameworks */,
+				53184E6ABDCA14D0A079DE4F /* libssl.a in Frameworks */,
+				3E34402D91A225D83E6FE498 /* libsdl2_ttf.a in Frameworks */,
+				25774501A6AC98E33FA1A69A /* libpython3.a in Frameworks */,
+				CB6C48859A3052C7BD6D1275 /* libsdl2_mixer.a in Frameworks */,
+				A54B49FC8A0144B40A0472BF /* libpyobjus.a in Frameworks */,
+				EFB649A585CF5A9820900148 /* libsdl2_image.a in Frameworks */,
+				FE2C4EB797B2D8FAAA34BE59 /* libios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2CB5F34517D5233A006187AB /* bridge.h */,
+				2CB5F34617D5233A006187AB /* bridge.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* snakegame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				AC5106F32959EE3800655416 /* Storyboards */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				59994E3A148E85C800863906 /* YourApp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59738ABA1A8E19AA001B2C0C /* Images.xcassets */,
+				59738AB41A8BB5D8001B2C0C /* lib */,
+				59FDEA8A21E7D34E004E6ECE /* include */,
+				01532DA9137C099F0076F6BF /* icon.png */,
+				8D1107310486CEB800E47090 /* snakegame-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2C34719AF70CF61F8CF4818 /* CoreVideo.framework */,
+				5160478DA363449C6341596C /* CoreHaptics.framework */,
+				B6174E95B0C55B87AF72E84D /* QuartzCore.framework */,
+				8E684125B011DF6C385A22ED /* AVFoundation.framework */,
+				7DE344ACB192E4E7A07030B7 /* AudioToolbox.framework */,
+				AB2641CAA6D52A070404B65C /* WebKit.framework */,
+				895A45558D11401E6CAB8CF6 /* CoreBluetooth.framework */,
+				23134A35B4C60521A8329533 /* MobileCoreServices.framework */,
+				AD484457A4960A41929AFDD7 /* CoreMotion.framework */,
+				6E9E41DDAA69B0BAFDC75F44 /* ImageIO.framework */,
+				464B4A408C3C17CA760E3BE4 /* CoreGraphics.framework */,
+				76E94CD8A13435F096D13397 /* Accelerate.framework */,
+				D1E944409BCB7FC07D22B627 /* Metal.framework */,
+				A7BF42988E32AF5EAFE9B71C /* OpenGLES.framework */,
+				0E884A42B997B0EA4FBE99CF /* UIKit.framework */,
+				DE1C4CF887C093CBFD3B9756 /* CoreMedia.framework */,
+				054B4F2498FB69B69F332594 /* GameController.framework */,
+				FB2642F0BDF319B09A41B5F4 /* Photos.framework */,
+				E10E44AB85F47A20D69A0F32 /* MessageUI.framework */,
+				FE7A43519FADFCBE9784E217 /* libbz2.tbd */,
+				0CF44813925795A3A14FAD67 /* libz.tbd */,
+				B3574AF08440B8EAB4CDD664 /* libc++.tbd */,
+				C63C4BEAB317EBB9A48B615B /* libsqlite3.tbd */,
+				590E4E6584C84E15A9CEB48F /* libcrypto.a */,
+				3BF34FCDAC02383DE9D4BBFF /* libffi.a */,
+				84034411A7DCB8ACFC947425 /* libsdl2.a */,
+				B8C44D4285207FF298D9C0A3 /* libkivy.a */,
+				09A1482B94FE48C464011CB8 /* libssl.a */,
+				E06B433AB70AFFF84EC0290C /* libsdl2_ttf.a */,
+				D3984923A9C99BF093F4C81C /* libpython3.a */,
+				AB8544528FA77A6AA0D9EB0B /* libsdl2_mixer.a */,
+				0A3B49958F9A79BFB1317F1F /* libpyobjus.a */,
+				E7EF44418836775AAAD64624 /* libsdl2_image.a */,
+				5CE44D328A7037108BFAFA9A /* libios.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC5106F32959EE3800655416 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC5106F42959EE4E00655416 /* Launch Screen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* snakegame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "snakegame" */;
+			buildPhases = (
+				113D17E2153E3DB5001310A5 /* ShellScript */,
+				113D17E2153E3DB5001310A6 /* ShellScript */,
+				113D17E2153E3DB5001310A7 /* ShellScript */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = snakegame;
+			productName = snakegame;
+			productReference = 1D6058910D05DD3D006BFB54 /* snakegame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "snakegame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* snakegame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59738AB51A8BB5D8001B2C0C /* lib in Resources */,
+				AC5106F52959EE4E00655416 /* Launch Screen.storyboard in Resources */,
+				59FDEA8B21E7D34E004E6ECE /* include in Resources */,
+				59738ABB1A8E19AA001B2C0C /* Images.xcassets in Resources */,
+				01532DAA137C099F0076F6BF /* icon.png in Resources */,
+				59994E3B148E85C800863906 /* YourApp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113D17E2153E3DB5001310A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "rsync -av --delete \"/Users/nickbarban/tutorspace/kivy/snake_game\"/ \"$PROJECT_DIR\"/YourApp";
+		};
+		113D17E2153E3DB5001310A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "/Users/nickbarban/tutorspace/kivy/snake_game/dist/hostpython3/bin/python -m compileall -f -b \"$PROJECT_DIR\"/YourApp";
+		};
+		113D17E2153E3DB5001310A7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "find \"$PROJECT_DIR\"/YourApp/ -regex '.*\\.py' -delete";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2CB5F34717D5233A006187AB /* bridge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/nickbarban/tutorspace/kivy/snake_game/dist/frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/nickbarban/tutorspace/kivy/snake_game/dist/root/python3/include/python3.9/**",
+					/Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2,
+				);
+				INFOPLIST_FILE = "snakegame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nickbarban/tutorspace/kivy/snake_game/dist/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib,
+					"$(SRCROOT)/../dist/lib",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = snakegame;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/nickbarban/tutorspace/kivy/snake_game/dist/frameworks,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/System/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/nickbarban/tutorspace/kivy/snake_game/dist/root/python3/include/python3.9/**",
+					/Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2,
+				);
+				INFOPLIST_FILE = "snakegame-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/nickbarban/tutorspace/kivy/snake_game/dist/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator16.2.sdk/usr/lib,
+					"$(SRCROOT)/../dist/lib",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = snakegame;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				STRIP_INSTALLED_PRODUCT = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				USER_HEADER_SEARCH_PATHS = /Users/nickbarban/tutorspace/kivy/snake_game/dist/root/include/;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				USER_HEADER_SEARCH_PATHS = /Users/nickbarban/tutorspace/kivy/snake_game/dist/root/include/;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "snakegame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "snakegame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
