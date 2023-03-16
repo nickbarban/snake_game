@@ -1,0 +1,47 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "d5cd01c7177da41ca7791b5dd1c0c416b92ad1955b204c9b88983773ce473b3e"
+    }
+  ],
+  "containerPath" : "/Users/nickbarban/tutorspace/kivy/snake_game/build/sdl2_ttf/x86_64/SDL2_ttf-2.20.1/Xcode/SDL_ttf.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "x86_64",
+          "BITCODE_GENERATION_MODE" : "bitcode",
+          "HEADER_SEARCH_PATHS" : "/Users/nickbarban/tutorspace/kivy/snake_game/dist/include/common/sdl2",
+          "IDEBuildOperationMaxNumberOfConcurrentCompileTasks" : "8",
+          "ONLY_ACTIVE_ARCH" : "NO",
+          "SDKROOT" : "iphonesimulator16.2"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "80",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
